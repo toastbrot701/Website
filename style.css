@@ -1,0 +1,38 @@
+body{
+
+  justify-content: center;
+  align-items: center;
+  background-color: black
+  
+
+}
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+}
+
+
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.content-box {
+  width: 200px;
+  height: 200px;
+  background-color: #f2f2f2;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
